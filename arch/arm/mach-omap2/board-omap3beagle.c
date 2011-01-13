@@ -247,7 +247,7 @@ static void beagle_disable_dvi(struct omap_dss_device *dssdev)
 static struct omap_dss_device beagle_dvi_device = {
 	.type = OMAP_DISPLAY_TYPE_DPI,
 	.name = "dvi",
-	.driver_name = "generic_panel",
+	.driver_name = "psp_1000_panel",
 	.phy.dpi.data_lines = 24,
 	.reset_gpio = 170,
 	.platform_enable = beagle_enable_dvi,
